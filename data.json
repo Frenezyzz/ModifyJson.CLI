@@ -1,0 +1,20 @@
+{
+    "Tony": {
+        "Name": "Tony",
+        "Surname": "Stark",
+        "Age": 24,
+        "Email": "stark@"
+    },
+    "Elon": {
+        "Name": "Elon",
+        "Surname": "Musk",
+        "Age": 45,
+        "Email": "Elon@"
+    },
+    "Steve": {
+        "Name": "Steve",
+        "Surname": "gibson",
+        "Age": 50,
+        "Email": "roman@"
+    }
+}
