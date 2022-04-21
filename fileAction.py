@@ -5,9 +5,9 @@ from fileJson import FileJson
 from save import Save
 
 
-class FileAction(FileJson):
+class FileAction(DataAccion):
     def __init__(self):
-        super().__init__(self.data)
+        self.data = json.loads(open("data.json","r").read())
     def create(self,name,surname,age,email):
         dataJson = NotImplemented
         
