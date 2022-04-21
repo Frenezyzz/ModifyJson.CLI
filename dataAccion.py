@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 import json
-import fileJson
-class DataAccion(fileJson.FileJson):
+
+class DataAccion(ABC):
     
         
     @abstractmethod
